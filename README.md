@@ -54,6 +54,22 @@ The dataset used in this study is sourced from **FRED**, incorporating a range o
 
 ## Key Findings & Insights
 
+This analysis uncovered several critical insights into the relationships between unemployment rates and macroeconomic indicators. The findings below provide a detailed examination of these relationships, supported by machine learning and time series models:
+
+- **Unemployment rates exhibit a strong inverse relationship with consumer spending and GDP growth.** As unemployment rises, consumer spending contracts due to decreased disposable income, which in turn slows GDP growth. This relationship was confirmed through both regression models and correlation analysis.
+
+- **Retail sales and inflation serve as critical leading indicators in economic trend analysis.** Higher inflation often precedes changes in retail sales and consumer spending patterns, which can signal economic expansions or contractions.
+
+- **Random Forest Regression outperforms other models in predicting consumer spending based on unemployment trends.** The model's feature importance analysis highlighted that retail sales and GDP growth are the most significant predictors of consumer spending, suggesting that businesses can use these metrics for demand forecasting.
+
+- **ARIMA modeling confirms cyclical trends in unemployment, supporting its use for short-term forecasting.** This indicates that policymakers and businesses can leverage unemployment trend data to anticipate economic downturns or recoveries and plan accordingly.
+
+- **PCA effectively reduces data complexity while maintaining over 95% variance retention.** This demonstrates that economic indicators can be distilled into fewer principal components while still capturing most of the informational content, which is useful for visualization and model efficiency.
+
+- **Clustering enables segmentation of economic cycles, which can be used for macroeconomic policy planning.** K-Means clustering successfully identified distinct economic periods characterized by different levels of unemployment, inflation, and GDP growth. This segmentation can help governments and financial institutions tailor their economic policies to specific phases of the business cycle.
+
+- **Residual analysis of regression models shows that while linear models capture general trends, ensemble models like Random Forest and AdaBoost provide better predictive accuracy.** This suggests that traditional econometric models may need to be supplemented with machine learning techniques to improve economic forecasting.
+
 - **Unemployment rates exhibit a strong inverse relationship with consumer spending and GDP growth.**
 - **Retail sales and inflation serve as critical leading indicators in economic trend analysis.**
 - **Random Forest Regression outperforms other models in predicting consumer spending based on unemployment trends.**
