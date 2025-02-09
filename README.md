@@ -163,9 +163,6 @@ This analysis uncovered several critical insights into the relationships between
 ![Cross-Validation Score Final](images/cross_validation_score_final.png)
 
 - Applied to assess model robustness and prevent overfitting.
-![Cross-Validation Final](images/cross_validation_final.png)
-
-- Applied to assess model robustness and prevent overfitting.
 
 ### Mean Squared Error (MSE) & R² Scores
 ![MSE & R² Score Final](images/mse_r2_score_final.png)
