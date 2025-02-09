@@ -65,44 +65,66 @@ The dataset used in this study is sourced from **FRED**, incorporating a range o
 
 ### 1. Correlation Heatmap
 ![Correlation Heatmap](images/correlation_heatmap.png)
+
+
 - Visualizes interdependencies among economic indicators, highlighting strong correlations between inflation, GDP growth, and unemployment.
 
 ### 2. Pairplots
 ![Pairplots](images/pairplots.png)
+
+
 - Scatterplot matrix to explore relationships between key economic variables and detect non-linear trends.
 
 ### 3. Boxplots for Outlier Detection
 ![Boxplots](images/boxplots.png)
+
+
 - Identifies anomalies in economic indicators, ensuring data quality and consistency.
 
 ### 4. Time Series Decomposition
 ![Time Series Decomposition](images/time_series_decomposition.png)
+
+
 - Decomposes unemployment trends into **trend, seasonality, and residual components** to better understand cyclical movements in the economy.
 
 ### 5. Feature Importance Analysis
 ![Feature Importance](images/feature_importance.png)
+
+
 - Highlights which economic indicators are most influential in predicting consumer spending.
 
 ### 6. Regression Residual Plot
 ![Regression Residual Plot](images/regression_residual_plot.png)
+
+
 - Assesses model accuracy by visualizing prediction errors across different models.
 
 ### 7. Clustering Visualization
-![Clustering Visualization](images/clustering_visualization.png)
+
+
+
 - Illustrates economic segmentations using **PCA-based clustering**, identifying distinct macroeconomic regimes.
 
 ### 8. Subplots for EDA
-![Subplots for EDA](images/subplots.png)
+
+
+
 - Combines multiple analyses into a single figure for improved readability and interpretability.
 
 ### 9. Unemployment Forecasting with ARIMA
-![Unemployment Forecasting](images/unemployment_forecasting.png)
+
+
+
 - Forecasts unemployment trends, demonstrating time series modeling capabilities.
 
 - **Feature Importance Analysis**: Identifies the most influential predictors of economic performance.
+
 - **Residual Plot for Regression Models**: Evaluates model accuracy and potential heteroscedasticity issues.
+
 - **Clustering Visualization**: Provides insight into economic segmentation using PCA-based clustering.
+
 - **Time Series Decomposition**: Showcases underlying patterns in unemployment rate trends.
+
 - **Subplots for EDA**: Combines multiple analyses into a single figure for better interpretability.
 
 ## Model Validation & Performance Evaluation
@@ -133,5 +155,4 @@ The dataset used in this study is sourced from **FRED**, incorporating a range o
 - **Apply Deep Learning techniques such as LSTMs for long-term economic forecasting.**
 - **Integrate additional economic indicators such as interest rate spreads and consumer confidence indices.**
 - **Develop an interactive dashboard for real-time economic monitoring.**
-
 
