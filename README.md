@@ -178,8 +178,6 @@ This analysis uncovered several critical insights into the relationships between
 ### Silhouette Score for Clustering
 ![Silhouette Score Final](images/silhouette_score_final.png)
 
-- Evaluates the quality of economic segmentations.
-![Silhouette Final](images/silhouette_final.png)
 
 - Evaluates the quality of economic segmentations.
 
@@ -189,7 +187,6 @@ This analysis uncovered several critical insights into the relationships between
 - Applied to assess model robustness and prevent overfitting.
 
 
-- Applied to assess model robustness and prevent overfitting.
 
 ### Mean Squared Error (MSE) & R² Scores
 ![MSE & R² Score](images/mse_r2_score.png)
@@ -199,18 +196,6 @@ This analysis uncovered several critical insights into the relationships between
 
 - Used to benchmark the accuracy of regression models.
 
-### Silhouette Score for Clustering
-![Silhouette Score](images/silhouette_score.png)
-
-- Evaluates the quality of economic segmentations.
-
-- Evaluates the quality of economic segmentations.
-
-- **Cross-Validation**: Applied to assess model robustness and prevent overfitting.
-
-- **Mean Squared Error (MSE) & R² Scores**: Used to benchmark the accuracy of regression models.
-
-- **Silhouette Score for Clustering**: Evaluates the quality of economic segmentations.
 
 ## How to Run the Code
 
