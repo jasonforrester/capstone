@@ -21,6 +21,9 @@ The dataset used in this study is sourced from **FRED**, incorporating a range o
 - **Industrial Production Index** (INDPRO)
 - **Retail Sales** (RSAFS)
 
+  [Download Expanded Economic Data](expanded_economic_data.csv)
+
+
 ## Analytical Methodology
 
 ### Exploratory Data Analysis (EDA)
