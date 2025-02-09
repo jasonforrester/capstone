@@ -116,19 +116,19 @@ This analysis uncovered several critical insights into the relationships between
 - Assesses model accuracy by visualizing prediction errors across different models.
 
 ### 7. Clustering Visualization
-
+![Clustering Visualization](images/clustering_visualization.png)
 
 
 - Illustrates economic segmentations using **PCA-based clustering**, identifying distinct macroeconomic regimes.
 
 ### 8. Subplots for EDA
-
+![Subplots for EDA](images/subplots.png)
 
 
 - Combines multiple analyses into a single figure for improved readability and interpretability.
 
 ### 9. Unemployment Forecasting with ARIMA
-
+![Unemployment Forecasting](images/unemployment_forecasting.png)
 
 
 - Forecasts unemployment trends, demonstrating time series modeling capabilities.
@@ -171,4 +171,3 @@ This analysis uncovered several critical insights into the relationships between
 - **Apply Deep Learning techniques such as LSTMs for long-term economic forecasting.**
 - **Integrate additional economic indicators such as interest rate spreads and consumer confidence indices.**
 - **Develop an interactive dashboard for real-time economic monitoring.**
-
