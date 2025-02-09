@@ -4,6 +4,9 @@
 
 This project conducts an in-depth examination of how changes in unemployment rates influence key economic indicators such as **consumer spending, inflation, and GDP growth**. By leveraging data from the **Federal Reserve Economic Data (FRED)** platform, this analysis employs a combination of **statistical methods, machine learning algorithms, and time series forecasting techniques** to derive actionable insights.
 
+[View Unemployment Analysis Notebook](unemployment_analysis.ipynb)
+
+
 ## Dataset
 
 The dataset used in this study is sourced from **FRED**, incorporating a range of macroeconomic indicators, including:
