@@ -85,54 +85,63 @@ This analysis uncovered several critical insights into the relationships between
 ## Visualization Strategy
 
 ### 1. Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 
 
 - Visualizes interdependencies among economic indicators, highlighting strong correlations between inflation, GDP growth, and unemployment.
 
 ### 2. Pairplots
+![Pairplots](images/pairplots.png)
 
 
 
 - Scatterplot matrix to explore relationships between key economic variables and detect non-linear trends.
 
 ### 3. Boxplots for Outlier Detection
+![Boxplots](images/boxplots.png)
 
 
 
 - Identifies anomalies in economic indicators, ensuring data quality and consistency.
 
 ### 4. Time Series Decomposition
+![Time Series Decomposition](images/time_series_decomposition.png)
 
 
 
 - Decomposes unemployment trends into **trend, seasonality, and residual components** to better understand cyclical movements in the economy.
 
 ### 5. Feature Importance Analysis
+![Feature Importance](images/feature_importance.png)
 
 
 
 - Highlights which economic indicators are most influential in predicting consumer spending.
 
 ### 6. Regression Residual Plot
+![Regression Residual Plot](images/regression_residual_plot.png)
 
 
 
 - Assesses model accuracy by visualizing prediction errors across different models.
 
 ### 7. Clustering Visualization
+![Clustering Visualization](images/clustering_visualization.png)
 
 
 
 - Illustrates economic segmentations using **PCA-based clustering**, identifying distinct macroeconomic regimes.
 
 ### 8. Subplots for EDA
+![Subplots](images/subplots.png)
 
 
 
 - Combines multiple analyses into a single figure for improved readability and interpretability.
 
 ### 9. Unemployment Forecasting with ARIMA
+![Unemployment Forecasting](images/unemployment_forecasting.png)
 
 
 
@@ -151,16 +160,25 @@ This analysis uncovered several critical insights into the relationships between
 ## Model Validation & Performance Evaluation
 
 ### Cross-Validation
+![Cross-Validation Score Final](images/cross_validation_score_final.png)
+
+- Applied to assess model robustness and prevent overfitting.
 ![Cross-Validation Final](images/cross_validation_final.png)
 
 - Applied to assess model robustness and prevent overfitting.
 
 ### Mean Squared Error (MSE) & R² Scores
+![MSE & R² Score Final](images/mse_r2_score_final.png)
+
+- Used to benchmark the accuracy of regression models.
 ![MSE & R² Final](images/mse_r2_final.png)
 
 - Used to benchmark the accuracy of regression models.
 
 ### Silhouette Score for Clustering
+![Silhouette Score Final](images/silhouette_score_final.png)
+
+- Evaluates the quality of economic segmentations.
 ![Silhouette Final](images/silhouette_final.png)
 
 - Evaluates the quality of economic segmentations.
