@@ -181,20 +181,6 @@ This analysis uncovered several critical insights into the relationships between
 
 - Evaluates the quality of economic segmentations.
 
-### Cross-Validation
-![Cross-Validation Score](images/cross_validation_score.png)
-
-- Applied to assess model robustness and prevent overfitting.
-
-
-
-### Mean Squared Error (MSE) & R² Scores
-![MSE & R² Score](images/mse_r2_score.png)
-
-- Used to benchmark the accuracy of regression models.
-
-
-- Used to benchmark the accuracy of regression models.
 
 
 ## How to Run the Code
