@@ -71,64 +71,69 @@ This analysis uncovered several critical insights into the relationships between
 - **Residual analysis of regression models shows that while linear models capture general trends, ensemble models like Random Forest and AdaBoost provide better predictive accuracy.** This suggests that traditional econometric models may need to be supplemented with machine learning techniques to improve economic forecasting.
 
 - **Unemployment rates exhibit a strong inverse relationship with consumer spending and GDP growth.**
+
 - **Retail sales and inflation serve as critical leading indicators in economic trend analysis.**
+
 - **Random Forest Regression outperforms other models in predicting consumer spending based on unemployment trends.**
+
 - **ARIMA modeling confirms cyclical trends in unemployment, supporting its use for short-term forecasting.**
+
 - **PCA effectively reduces data complexity while maintaining over 95% variance retention.**
+
 - **Clustering enables segmentation of economic cycles, which can be used for macroeconomic policy planning.**
 
 ## Visualization Strategy
 
 ### 1. Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+
 
 
 - Visualizes interdependencies among economic indicators, highlighting strong correlations between inflation, GDP growth, and unemployment.
 
 ### 2. Pairplots
-![Pairplots](images/pairplots.png)
+
 
 
 - Scatterplot matrix to explore relationships between key economic variables and detect non-linear trends.
 
 ### 3. Boxplots for Outlier Detection
-![Boxplots](images/boxplots.png)
+
 
 
 - Identifies anomalies in economic indicators, ensuring data quality and consistency.
 
 ### 4. Time Series Decomposition
-![Time Series Decomposition](images/time_series_decomposition.png)
+
 
 
 - Decomposes unemployment trends into **trend, seasonality, and residual components** to better understand cyclical movements in the economy.
 
 ### 5. Feature Importance Analysis
-![Feature Importance](images/feature_importance.png)
+
 
 
 - Highlights which economic indicators are most influential in predicting consumer spending.
 
 ### 6. Regression Residual Plot
-![Regression Residual Plot](images/regression_residual_plot.png)
+
 
 
 - Assesses model accuracy by visualizing prediction errors across different models.
 
 ### 7. Clustering Visualization
-![Clustering Visualization](images/clustering_visualization.png)
+
 
 
 - Illustrates economic segmentations using **PCA-based clustering**, identifying distinct macroeconomic regimes.
 
 ### 8. Subplots for EDA
-![Subplots for EDA](images/subplots.png)
+
 
 
 - Combines multiple analyses into a single figure for improved readability and interpretability.
 
 ### 9. Unemployment Forecasting with ARIMA
-![Unemployment Forecasting](images/unemployment_forecasting.png)
+
 
 
 - Forecasts unemployment trends, demonstrating time series modeling capabilities.
@@ -145,8 +150,48 @@ This analysis uncovered several critical insights into the relationships between
 
 ## Model Validation & Performance Evaluation
 
+### Cross-Validation
+![Cross-Validation Final](images/cross_validation_final.png)
+
+- Applied to assess model robustness and prevent overfitting.
+
+### Mean Squared Error (MSE) & R² Scores
+![MSE & R² Final](images/mse_r2_final.png)
+
+- Used to benchmark the accuracy of regression models.
+
+### Silhouette Score for Clustering
+![Silhouette Final](images/silhouette_final.png)
+
+- Evaluates the quality of economic segmentations.
+
+### Cross-Validation
+![Cross-Validation Score](images/cross_validation_score.png)
+
+- Applied to assess model robustness and prevent overfitting.
+
+
+- Applied to assess model robustness and prevent overfitting.
+
+### Mean Squared Error (MSE) & R² Scores
+![MSE & R² Score](images/mse_r2_score.png)
+
+- Used to benchmark the accuracy of regression models.
+
+
+- Used to benchmark the accuracy of regression models.
+
+### Silhouette Score for Clustering
+![Silhouette Score](images/silhouette_score.png)
+
+- Evaluates the quality of economic segmentations.
+
+- Evaluates the quality of economic segmentations.
+
 - **Cross-Validation**: Applied to assess model robustness and prevent overfitting.
+
 - **Mean Squared Error (MSE) & R² Scores**: Used to benchmark the accuracy of regression models.
+
 - **Silhouette Score for Clustering**: Evaluates the quality of economic segmentations.
 
 ## How to Run the Code
@@ -171,3 +216,4 @@ This analysis uncovered several critical insights into the relationships between
 - **Apply Deep Learning techniques such as LSTMs for long-term economic forecasting.**
 - **Integrate additional economic indicators such as interest rate spreads and consumer confidence indices.**
 - **Develop an interactive dashboard for real-time economic monitoring.**
+
