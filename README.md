@@ -168,9 +168,6 @@ This analysis uncovered several critical insights into the relationships between
 ![MSE & R² Score Final](images/mse_r2_score_final.png)
 
 - Used to benchmark the accuracy of regression models.
-![MSE & R² Final](images/mse_r2_final.png)
-
-- Used to benchmark the accuracy of regression models.
 
 ### Silhouette Score for Clustering
 ![Silhouette Score Final](images/silhouette_score_final.png)
